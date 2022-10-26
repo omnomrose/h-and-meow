@@ -39,6 +39,43 @@ a {
     margin-left: 25%;
 }
 
+.features-box1{
+    position: absolute;
+    display: flex;
+    top: 30%;
+    margin-left: 400px;
+    width: 200px;
+    height: 150px;
+    border-radius: 20px;
+    background-color: #748468;
+}
+
+.features-box2{
+    margin-left: 225px;
+    position: absolute;
+    width: 200px;
+    height: 150px;
+    border-radius: 20px;
+    background-color: #748468;
+}
+
+.features-box3{
+    margin-left: 225px;
+    position: absolute;
+    width: 200px;
+    height: 150px;
+    border-radius: 20px;
+    background-color: #748468;
+}
+
+.features-box4{
+    margin-left: 225px;
+    position: absolute;
+    width: 200px;
+    height: 150px;
+    border-radius: 20px;
+    background-color: #748468;
+}
 .categories-list {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bold;
