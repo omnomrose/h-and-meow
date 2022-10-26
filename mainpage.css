@@ -45,6 +45,18 @@ a {
     margin-left: 25%;
 }
 
+#featured {
+    position: relative;
+    padding-left: 30px;
+    bottom: -110px;
+}
+
+#trending {
+    position: relative;
+    padding-left: 30px;
+    bottom: -350px;
+}
+
 .features-box1{
     position: absolute;
     display: flex;
