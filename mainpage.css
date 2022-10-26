@@ -57,7 +57,7 @@ a {
     display: flex;
     position: relative;
     padding-left: 30px;
-    bottom: -395px;
+    bottom: -350px;
 }
 
 .features-box1 {
@@ -195,7 +195,7 @@ a {
     max-width: 200px;
     height: 110px;
     left: 432px;
-    top: 270px;
+    top: 250px;
     z-index: -1;
 }
 
@@ -208,7 +208,7 @@ a {
     max-width: 200px;
     height: 110px;
     left: 660px;
-    top: 270px;
+    top: 250px;
     z-index: -1;
 }
 
@@ -221,7 +221,7 @@ a {
     max-width: 200px;
     height: 110px;
     left: 883px;
-    top: 270px;
+    top: 250px;
     z-index: -1;
 }
 
@@ -234,7 +234,7 @@ a {
     max-width: 200px;
     height: 110px;
     left: 1110px;
-    top: 270px;
+    top: 250px;
     z-index: -1;
 }
 
@@ -248,6 +248,6 @@ a {
     max-width: 200px;
     height: 110px;
     left: 433px;
-    top: 615px;
+    top: 540px;
     z-index: -1;
 }
