@@ -304,3 +304,15 @@ a {
     top: 540px;
     z-index: -1;
 }
+
+#sailor-kitty {
+    display: flex;
+    object-fit:cover; 
+    position:absolute;
+    border-radius: 10px; 
+    width: 150px;
+    height:150px;
+    top: 550px;
+    left: 70px;
+
+}
