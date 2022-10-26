@@ -146,6 +146,10 @@ a {
     color: rgb(113, 117, 104);
     position: absolute; 
     left: 55px;
+    margin-left: 30px;
+    margin-top: 70px;
+    display: flex;
+    flex-direction: column;
 }
 
 #categories-box {
