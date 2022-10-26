@@ -57,7 +57,7 @@ a {
     display: flex;
     position: relative;
     padding-left: 30px;
-    bottom: -350px;
+    bottom: -370px;
 }
 
 .features-box1{
@@ -184,6 +184,6 @@ a {
     max-width: 200px;
     height: 110px;
     margin-left: 425px;
-    margin-top: 40px;
+    margin-top: 110px;
     z-index: -1;
 }
