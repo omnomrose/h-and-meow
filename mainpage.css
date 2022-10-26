@@ -25,10 +25,16 @@ a {
     z-index: -1;
 }
 
+#about {
+    position: absolute;
+    margin-left: 90%;
+    bottom: 780px;
+}
+
 .nav-bar {
     display: absolute;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-weight: bold;
+    font-weight: lighter;
     font-size: large;
     color: rgb(113, 117, 104);
 }
