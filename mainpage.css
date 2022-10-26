@@ -94,6 +94,45 @@ a {
     border-radius: 20px;
     background-color: #748468;
 }
+
+.trending-box1{
+    position: absolute;
+    display: flex;
+    bottom: 90px;
+    margin-left: 400px;
+    width: 200px;
+    height: 150px;
+    border-radius: 20px;
+    background-color: #748468;
+}
+
+.trending-box2{
+    margin-left: 225px;
+    position: absolute;
+    width: 200px;
+    height: 150px;
+    border-radius: 20px;
+    background-color: #748468;
+}
+
+.trending-box3{
+    margin-left: 225px;
+    position: absolute;
+    width: 200px;
+    height: 150px;
+    border-radius: 20px;
+    background-color: #748468;
+}
+
+.trending-box4{
+    margin-left: 225px;
+    position: absolute;
+    width: 200px;
+    height: 150px;
+    border-radius: 20px;
+    background-color: #748468;
+}
+
 .categories-list {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bold;
