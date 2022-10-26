@@ -187,3 +187,39 @@ a {
     margin-top: 110px;
     z-index: -1;
 }
+
+#hello-kitty {
+    display: flex;
+    object-fit: cover;
+    border-radius: 10%;
+    width: 150px;
+    max-width: 200px;
+    height: 110px;
+    margin-left: 650px;
+    margin-top: -110px;
+    z-index: -1;
+}
+
+#bunny-kitty {
+    display: flex;
+    object-fit: cover;
+    border-radius: 10%;
+    width: 150px;
+    max-width: 200px;
+    height: 110px;
+    margin-left: 875px;
+    margin-top: -110px;
+    z-index: -1;
+}
+
+#pudding-kitty {
+    display: flex;
+    object-fit: cover;
+    border-radius: 10%;
+    width: 150px;
+    max-width: 200px;
+    height: 110px;
+    margin-left: 1100px;
+    margin-top: -110px;
+    z-index: -1;
+}
