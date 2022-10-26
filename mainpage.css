@@ -50,14 +50,14 @@ a {
     display: flex;
     position: relative;
     padding-left: 30px;
-    bottom: -110px;
+    top: 100px;
 }
 
 #trending {
     display: flex;
     position: relative;
     padding-left: 30px;
-    bottom: -350px;
+    top: 350px;
 }
 
 .features-box1 {
@@ -177,7 +177,7 @@ a {
 #cat-propaganda {
     position: absolute;
     display: flex;
-    top: 65%;
+    top: 525px;
     margin-left: 40px;
     width: 200px;
     height: 200px;
