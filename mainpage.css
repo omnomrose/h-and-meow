@@ -13,7 +13,7 @@ a {
     font-size: 25px;
 }
 
-.upper-tab-bar{
+.upper-tab-bar {
     position: absolute;
     display: flex;
     width: 100%;
@@ -40,7 +40,7 @@ a {
     color: rgb(113, 117, 104);
 }
 
-.headers {  
+.headers {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: rgb(113, 117, 104);
     margin-left: 25%;
@@ -57,10 +57,10 @@ a {
     display: flex;
     position: relative;
     padding-left: 30px;
-    bottom: -370px;
+    bottom: -395px;
 }
 
-.features-box1{
+.features-box1 {
     position: absolute;
     display: flex;
     top: 30%;
@@ -72,7 +72,7 @@ a {
     z-index: -1;
 }
 
-.features-box2{
+.features-box2 {
     margin-left: 225px;
     position: absolute;
     width: 200px;
@@ -82,7 +82,7 @@ a {
     z-index: -1;
 }
 
-.features-box3{
+.features-box3 {
     margin-left: 225px;
     position: absolute;
     width: 200px;
@@ -92,7 +92,7 @@ a {
     z-index: -1;
 }
 
-.features-box4{
+.features-box4 {
     margin-left: 225px;
     position: absolute;
     width: 200px;
@@ -102,7 +102,7 @@ a {
     z-index: -1;
 }
 
-.trending-box1{
+.trending-box1 {
     position: absolute;
     display: flex;
     bottom: 90px;
@@ -111,47 +111,55 @@ a {
     height: 150px;
     border-radius: 20px;
     background-color: #748468;
+    z-index: -1;
+
 }
 
-.trending-box2{
+.trending-box2 {
     margin-left: 225px;
     position: absolute;
     width: 200px;
     height: 150px;
     border-radius: 20px;
     background-color: #748468;
+    z-index: -1;
+
 }
 
-.trending-box3{
+.trending-box3 {
     margin-left: 225px;
     position: absolute;
     width: 200px;
     height: 150px;
     border-radius: 20px;
     background-color: #748468;
+    z-index: -1;
+
 }
 
-.trending-box4{
+.trending-box4 {
     margin-left: 225px;
     position: absolute;
     width: 200px;
     height: 150px;
     border-radius: 20px;
     background-color: #748468;
+    z-index: -1;
+
 }
 
 .categories-list {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bold;
     color: rgb(113, 117, 104);
-    position: absolute; 
+    position: absolute;
     left: 55px;
     margin-left: 30px;
     margin-top: 70px;
     display: flex;
     flex-direction: column;
     position: absolute;
-    top: 230px;
+    top: 210px;
 }
 
 #categories-box {
@@ -181,47 +189,65 @@ a {
 #taiyaki-cat {
     display: flex;
     object-fit: cover;
+    position: absolute;
     border-radius: 10%;
     width: 150px;
     max-width: 200px;
     height: 110px;
-    margin-left: 425px;
-    margin-top: 110px;
+    left: 432px;
+    top: 270px;
     z-index: -1;
 }
 
 #hello-kitty {
     display: flex;
     object-fit: cover;
+    position: absolute;
     border-radius: 10%;
     width: 150px;
     max-width: 200px;
     height: 110px;
-    margin-left: 650px;
-    margin-top: -110px;
+    left: 660px;
+    top: 270px;
     z-index: -1;
 }
 
 #bunny-kitty {
     display: flex;
     object-fit: cover;
+    position: absolute;
     border-radius: 10%;
     width: 150px;
     max-width: 200px;
     height: 110px;
-    margin-left: 875px;
-    margin-top: -110px;
+    left: 883px;
+    top: 270px;
     z-index: -1;
 }
 
 #pudding-kitty {
     display: flex;
     object-fit: cover;
+    position: absolute;
     border-radius: 10%;
     width: 150px;
     max-width: 200px;
     height: 110px;
-    margin-left: 1100px;
-    margin-top: -110px;
+    left: 1110px;
+    top: 270px;
+    z-index: -1;
+}
+
+
+#sushi-cat {
+    display: flex;
+    object-fit: cover;
+    position: absolute;
+    border-radius: 10%;
+    width: 150px;
+    max-width: 200px;
+    height: 110px;
+    left: 433px;
+    top: 615px;
     z-index: -1;
 }
