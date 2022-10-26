@@ -137,6 +137,8 @@ a {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bold;
     color: rgb(113, 117, 104);
+    position: absolute; 
+    left: 55px;
 }
 
 #categories-box {
