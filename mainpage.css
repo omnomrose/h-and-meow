@@ -25,6 +25,13 @@ a {
     z-index: -1;
 }
 
+.logo {
+    display: flex;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    color: rgb(113, 117, 104);
+}
+
 #about {
     display: flex;
     position: absolute;
@@ -36,7 +43,6 @@ a {
     display: absolute;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: lighter;
-    font-size: large;
     color: rgb(113, 117, 104);
 }
 
@@ -46,14 +52,15 @@ a {
     margin-left: 25%;
 }
 
-#featured {
+.headers h2{
     display: flex;
     position: relative;
     padding-left: 30px;
     top: 100px;
+    font-size: 2vw;
 }
 
-#trending {
+.headers .trending{
     display: flex;
     position: relative;
     padding-left: 30px;
