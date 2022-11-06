@@ -59,6 +59,8 @@ a {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: rgb(113, 117, 104);
     margin-left: 25%;
+    gap: 5px;
+
 }
 
 .headers-container h2{
