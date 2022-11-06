@@ -90,7 +90,10 @@ a {
     height: 150px;
     border-radius: 10%;
 }
-
+img:hover {
+    transition: 400ms ease-in-out;
+    transform: scale(1.14);
+}
 
 .trending-container {
     display: grid;
