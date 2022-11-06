@@ -92,7 +92,7 @@ a {
 }
 img:hover {
     transition: 400ms ease-in-out;
-    transform: scale(1.14);
+    transform: scale(1.15);
 }
 
 .trending-container {
