@@ -59,6 +59,8 @@ a {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: rgb(113, 117, 104);
     margin-left: 25%;
+    gap: 10px;
+
 }
 
 .headers-container h2{
@@ -93,7 +95,7 @@ a {
 .trending-container {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    gap: 5px;
+    gap: 10px;
     margin-top: 10%;
     margin-left: 27%;
 }
