@@ -94,7 +94,12 @@ a {
     height: 150px;
     border-radius: 10%;
 }
-img:hover {
+
+.features-container img:hover {
+    transition: 400ms ease-in-out;
+    transform: scale(1.15);
+}
+.trending-container img:hover {
     transition: 400ms ease-in-out;
     transform: scale(1.15);
 }
