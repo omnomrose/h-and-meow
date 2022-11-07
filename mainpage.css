@@ -1,5 +1,5 @@
 html {
-    background-color: #fff8e2;
+    background-color: #ffffff;
 }
 
 
@@ -16,7 +16,7 @@ a {
     border-radius: 10px;
     margin-top: -3%;
     margin-left: -.5%;
-    background-color: #f1bf98;
+    background-color: #fd9e9e;
     z-index: -1;
     text-align: center;
 }
@@ -29,7 +29,7 @@ a {
     margin-left: 90%;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bold;
-    color: rgb(113, 117, 104);
+    color: #967676;
     
     padding-top: 2px; 
 }
@@ -118,7 +118,7 @@ img:hover {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bold;
     color: rgb(113, 117, 104);
-    font-size: 25px;
+    font-size: 20px;
     position: absolute;
     left: 55px;
     margin-left: 30px;
@@ -143,7 +143,7 @@ img:hover {
     width: 200px;
     height: 200px;
     border-radius: 20px;
-    background-color: #bacba9;
+    background-color: #fd9e9e;
     z-index: -1;
 }
 
@@ -155,7 +155,7 @@ img:hover {
     width: 200px;
     height: 200px;
     border-radius: 20px;
-    background-color: #f1bf98;
+    background-color: #fd9e9e;
     z-index: -1;
 }
 
