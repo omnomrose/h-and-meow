@@ -118,14 +118,21 @@ img:hover {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bold;
     color: rgb(113, 117, 104);
+    font-size: 25px;
     position: absolute;
     left: 55px;
     margin-left: 30px;
-    margin-top: 70px;
+    margin-top: 40px;
     display: flex;
     flex-direction: column;
     position: absolute;
     top: 210px;
+}
+
+.categories-list a:hover {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    color: #fff8e2;
 }
 
 #categories-box {
