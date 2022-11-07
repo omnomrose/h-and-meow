@@ -21,28 +21,13 @@ a {
     text-align: center;
 }
 
-.about-us {
-    position: absolute;
-    justify-content: center;
-    display: flex;
-    margin-top: 4%;
-    margin-left: 90%;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-weight: bold;
-    color: #967676;
-    
-    padding-top: 2px; 
-}
-.logo {
+.upper-tab-bar img {
     position: absolute;
     display: flex;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-weight: bold;
-    color: rgb(113, 117, 104);
     margin-left: 45%;
-    height: 300px;
-    width: 500px;
-    margin-top: -5%;
+    height: 250px;
+    width: 200px;
+    margin-top: -3%;
 }
 
 #about {
@@ -84,6 +69,7 @@ a {
 .features-container {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
     margin-top: 8%;
     margin-left: 27%;
 }
@@ -137,7 +123,7 @@ a {
 .categories-list a:hover {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bold;
-    color: #fff8e2;
+    color: #ffffff;
 }
 
 #categories-box {
