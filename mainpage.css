@@ -21,21 +21,15 @@ a {
     text-align: center;
 }
 
-.upper-tab-bar img {
+.logo{
     position: absolute;
     display: flex;
-    margin-left: 45%;
+    margin-left: 43%;
     height: 250px;
     width: 200px;
-    margin-top: -3%;
+    margin-top: -6%;
 }
 
-#about {
-    display: flex;
-    position: absolute;
-    margin-left: 90%;
-    top: 40px;
-}
 
 .nav-bar {
     display: absolute;
@@ -106,18 +100,17 @@ a {
 }
 
 .categories-list {
+    position: absolute;
+    display: flex;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bold;
     color: rgb(113, 117, 104);
     font-size: 20px;
-    position: absolute;
     left: 55px;
     margin-left: 30px;
-    margin-top: 40px;
-    display: flex;
     flex-direction: column;
-    position: absolute;
-    top: 210px;
+    text-decoration: none;
+    margin-top: -29%;
 }
 
 .categories-list a:hover {
@@ -126,7 +119,7 @@ a {
     color: #ffffff;
 }
 
-#categories-box {
+.categories-box {
     position: absolute;
     display: flex;
     top: 225px;
@@ -138,7 +131,7 @@ a {
     z-index: -1;
 }
 
-#cat-propaganda {
+.cat-propaganda {
     position: absolute;
     display: flex;
     top: 525px;
@@ -148,20 +141,6 @@ a {
     border-radius: 20px;
     background-color: #fd9e9e;
     z-index: -1;
-}
-
-.cat-propaganda {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-weight: bold;
-    color: rgb(113, 117, 104);
-    position: absolute;
-    left: 55px;
-    margin-left: 30px;
-    margin-top: 70px;
-    display: flex;
-    flex-direction: column;
-    position: absolute;
-    top: 470px;
 }
 
 
