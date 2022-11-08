@@ -8,6 +8,15 @@ a {
     color: rgb(113, 117, 104);
 }
 
+input[type=text] {
+  float: right;
+  padding: 6px;
+  margin-top: 8px;
+  margin-right: 25px;
+  border: none;
+  font-size: 17px;
+}
+
 .upper-tab-bar {
     position: absolute;
     display: flex;
@@ -25,8 +34,8 @@ a {
     position: absolute;
     display: flex;
     margin-left: 43%;
-    height: 250px;
-    width: 200px;
+    height: 300px;
+    width: 250px;
     margin-top: -6%;
 }
 
