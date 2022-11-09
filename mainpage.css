@@ -21,8 +21,8 @@ a {
   border-radius: 10%;
 }
   
-  /* The popup form - hidden by default */
-  .form-popup {
+
+.form-popup {
     display: none;
     position: fixed;
     top: 20px;
@@ -31,8 +31,8 @@ a {
     z-index: 9;
   }
   
-  /* Add styles to the form container */
-  .form-container {
+
+.form-container {
     max-width: 300px;
     padding: 10px;
     background-color: white;
@@ -40,8 +40,8 @@ a {
     
   }
   
-  /* Full-width input fields */
-  .form-container input[type=text] {
+
+.form-container input[type=text] {
     width: 90%;
     padding: 15px;
     margin: 5px 0 22px 0;
@@ -50,7 +50,7 @@ a {
     font-size: 90%;
   }
   
-  .form-container input[type=password] {
+.form-container input[type=password] {
     width: 90%;
     padding: 15px;
     margin: 5px 0 22px 0;
@@ -60,14 +60,14 @@ a {
     
   }
   
-  /* When the inputs get focus, do something */
-  .form-container input[type=text]:focus, .form-container input[type=password]:focus {
+
+.form-container input[type=text]:focus, .form-container input[type=password]:focus {
     background-color: #ddd;
     outline: none;
   }
   
-  /* Set a style for the submit/login button */
-  .form-container .btn {
+
+.form-container .btn {
     background-color: #f28e8e;
     color: white;
     padding: 16px 20px;
@@ -78,19 +78,15 @@ a {
     opacity: 0.8;
   }
   
-  /* Add a red background color to the cancel button */
-  .form-container .cancel {
+
+.form-container .cancel {
     background-color: red;
   }
   
-  /* Add some hover effects to buttons */
-  .form-container .btn:hover, .open-button:hover {
+ 
+.form-container .btn:hover, .open-button:hover {
     opacity: 1;
   }
-
-
-
-
 
 input[type=text] {
   float: right;
@@ -176,13 +172,12 @@ input[type=text] {
   border-color: #fd9e9e;
 }
 .features-container {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 10px;
-    margin-top: 30%;
-    margin-left: 20%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+  margin-top: 7%;
+  margin-left: 20%;
 }
-
 .features-container img {
     object-fit: cover;
     width: 200px;
@@ -281,7 +276,7 @@ input[type=text] {
   height: 300px;
   background-color: yellow;
   position: absolute;
-  top: 100px;
+  top: 900px;
   margin: 4%;
   margin-left: 40%;
   text-align: center;
