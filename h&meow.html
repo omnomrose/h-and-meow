@@ -45,6 +45,33 @@
         document.getElementById("mySidenav").style.width = "0";
       }
     </script>
+
+<button class="open-button" onclick="openForm()">Sign In</button>
+
+  <div class="form-popup" id="myForm">
+    <form action="/action_page.php" class="form-container">
+       <h1>Sign In</h1>
+
+       <label for="email"><b></b></label>
+        <input type="text" placeholder="Enter Email" name="email" required>
+
+        <label for="psw"><b></b></label>
+        <input type="password" placeholder="Enter Password" name="psw" required>
+
+        <button type="submit" class="btn">Login</button>
+        <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+  </form>
+  </div>
+
+<script>
+function openForm() {
+  document.getElementById("myForm").style.display = "block";
+}
+
+function closeForm() {
+  document.getElementById("myForm").style.display = "none";
+}
+</script>
      
       
     <div class="upper-tab-bar"></div>
