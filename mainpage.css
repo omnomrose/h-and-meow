@@ -9,17 +9,17 @@ a {
 }
 
 .open-button {
-    background-color: rgb(255, 255, 255);
-    color: rgb(61, 61, 61);
-    padding: 16px;
-    border: none;
-    cursor: pointer;
-    position: absolute;
-    top: 19px;
-    right: 15px;
-    width: 75px;
-    border-radius: 10%;
-  }
+  background-color: rgb(255, 255, 255);
+  color: rgb(61, 61, 61);
+  padding: 16px;
+  border: none;
+  cursor: pointer;
+  position: absolute;
+  top: 19px;
+  right: 15px;
+  width: 75px;
+  border-radius: 10%;
+}
   
   /* The popup form - hidden by default */
   .form-popup {
@@ -150,9 +150,31 @@ input[type=text] {
 .headers-container .trending{
     display: flex;
     padding-left: 20px;
-    top: 736px;
+    top: 455px;
 }
 
+.headers-container .featured{
+    display: flex;
+    padding-left: 20px;
+    top: 137px;
+}
+.buy-button {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  background-color: #fd9e9e;
+  color:#ffffff;
+  font-size: 15px;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  text-align: center;
+  right: -15%;
+  margin-top: 5%;
+  top: 0%;
+  padding: 10px;
+  border-radius: 10px;
+  border-color: #fd9e9e;
+}
 .features-container {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
