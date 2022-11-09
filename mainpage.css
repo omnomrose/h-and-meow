@@ -316,8 +316,8 @@ input[type=text] {
 }
 .buttons a {
   display: inline-block;
-  height: 15px;
-  width: 15px;
+  height: 10px;
+  width: 10px;
   border-radius: 50px;
-  background-color: lightgreen;
+  background-color: rgb(255, 255, 255);
 }
