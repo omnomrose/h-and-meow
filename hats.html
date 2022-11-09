@@ -10,6 +10,25 @@
 
     <body>
 
+        <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a href="hats.html">Hats</a>
+            <a href="costumes.html">Costumes</a>
+            <a href="wigs.html">Wigs</a>
+        </div>
+        
+          <span style="font-size:40px;cursor:pointer;color: aliceblue; position: absolute; padding-left: 10px; margin-top: -0.5%;" onclick="openNav()">&#9776; </span>
+          
+        <script>
+          function openNav() {
+            document.getElementById("mySidenav").style.width = "250px";
+          }
+          
+          function closeNav() {
+            document.getElementById("mySidenav").style.width = "0";
+          }
+        </script>
+
         <div class="upper-tab-bar"></div>
         <input type="text" placeholder="Search..">
     
@@ -20,7 +39,26 @@
         <div class="headers-container">
             <h2 class="hats-child">hats</h2>
         </div>
-    
+
+        <div class="hat-filters">
+            <form>
+            <h1>Sort by:</h1>
+            <input type="checkbox" id="vehicle1" name="vehicle1">
+            <label for="hat1">Sanrio</label><br><br>
+            <input type="checkbox">
+            <label for="hat2">Food/Dessert Themed</label><br><br>
+            <input type="checkbox">
+            <label for="hat3">Animals</label><br><br>
+            <input type="checkbox" id="vehicle1" name="vehicle1">
+            <label for="hat1">Small</label><br><br>
+            <input type="checkbox">
+            <label for="hat2">Medium</label><br><br>
+            <input type="checkbox">
+            <label for="hat3">Large</label><br><br>
+            <input type="submit" id="submit">
+            </form>
+        </div>
+
         <div class="hats-container">
             <div class="h-box1">
                 <img src="taiyakicat.jpeg" alt="taiyaki cat">
@@ -64,16 +102,6 @@
             </div>
         </div>
     
-        <div class="categories-list">
-            <a class="hats" href="hats.html">hats</a>
-            <br>
-            <a class="costumes" href="costumes.html">costumes</a>
-            <br>
-            <a class="wigs" href="wigs.html">wigs</a>
-        </div>
-
-        <div class="categories-box"></div>
-
     </body>
     
     </html>

@@ -30,6 +30,40 @@ input[type=text] {
     text-align: center;
 }
 
+.wigs-filters{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    font-size: large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:  #ffffff;
+    margin-top: 9%;
+    margin-left: 2%;
+    background-color: #fd9e9e;
+    padding: 30px;
+    border-radius: 20px;
+}
+
+.wigs-filters label {
+    color:#ffffff;
+}
+
+#submit {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    color:#fd9e9e;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    text-align:center;
+    right: -1%;
+    top: 10%;
+    width: 10vw;
+    height: 5vh;
+    border-radius: 10px;
+    border-color: #ffffff;
+}
   
 .logo{
     position: absolute;
@@ -39,7 +73,6 @@ input[type=text] {
     width: 250px;
     margin-top: -8%;
 }
-
 
 .nav-bar {
     display: absolute;
@@ -53,10 +86,9 @@ input[type=text] {
     color: rgb(113, 117, 104);
     margin-left: 25%;
     gap: 10px;
-
 }
 
-.headers-container .hats-child{
+.headers-container .wigs-child{
     display: flex;
     position: relative;
     padding-left: 30px;
@@ -65,7 +97,7 @@ input[type=text] {
 }
 
 
-.hats-container {
+.wigs-container {
     display: grid;
     position: relative;
     grid-template-columns: repeat(4, 1fr);
@@ -74,7 +106,7 @@ input[type=text] {
     margin-left: 27%;
 }
 
-.h-box1 p{
+.w-box1 p{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: rgb(113, 117, 104);
     font-size: 25px;
@@ -84,7 +116,7 @@ input[type=text] {
     margin-right: 26%;
 }
 
-.h-box1 button{
+.w-box1 button{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bold;
     background-color: #fd9e9e;
@@ -101,7 +133,7 @@ input[type=text] {
     border-color: #fd9e9e;
 }
 
-.h-box2 p{
+.w-box2 p{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: rgb(113, 117, 104);
     font-size: 25px;
@@ -110,7 +142,7 @@ input[type=text] {
     text-align: center;
     margin-right: 26%;
 }
-.h-box2 button{
+.w-box2 button{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bold;
     background-color: #fd9e9e;
@@ -126,7 +158,7 @@ input[type=text] {
     border-radius: 10px;
     border-color: #fd9e9e;
 }
-.h-box3 p{
+.w-box3 p{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: rgb(113, 117, 104);
     font-size: 25px;
@@ -136,34 +168,7 @@ input[type=text] {
     margin-right: 26%;
 }
 
-.h-box3 button{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-weight: bold;
-    background-color: #fd9e9e;
-    color:#ffffff;
-    font-size: 15px;
-    display: flex;
-    justify-content: center;
-    position: relative;
-    text-align: center;
-    right: -15%;
-    top: 0%;
-    padding: 10px;
-    border-radius: 10px;
-    border-color: #fd9e9e;
-} 
-
-.h-box4 p{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: rgb(113, 117, 104);
-    font-size: 25px;
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    margin-right: 26%;
-}
-
-.h-box4 button{
+.w-box3 button{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bold;
     background-color: #fd9e9e;
@@ -180,23 +185,50 @@ input[type=text] {
     border-color: #fd9e9e;
 } 
 
-.hats-container img {
+.w-box4 p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(113, 117, 104);
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-right: 26%;
+}
+
+.w-box4 button{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    background-color: #fd9e9e;
+    color:#ffffff;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    text-align: center;
+    right: -15%;
+    top: 0%;
+    padding: 10px;
+    border-radius: 10px;
+    border-color: #fd9e9e;
+} 
+
+.wigs-container img {
     object-fit: cover;
     width: 200px;
     height: 150px;
     border-radius: 10%;
 }
 
-.hats-container img:hover {
+.wigs-container img:hover {
     transition: 400ms ease-in-out;
     transform: scale(1.15);
 }
-.hats2-container img:hover {
+.wigs2-container img:hover {
     transition: 400ms ease-in-out;
     transform: scale(1.15);
 }
 
-.hh-box1 button{
+.ww-box1 button{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bold;
     background-color: #fd9e9e;
@@ -213,7 +245,7 @@ input[type=text] {
     border-color: #fd9e9e;
 }
 
-.hh-box2 button{
+.ww-box2 button{
 
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bold;
@@ -231,7 +263,7 @@ input[type=text] {
     border-color: #fd9e9e;
 }
 
-.hh-box3 button{
+.ww-box3 button{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bold;
     background-color: #fd9e9e;
@@ -248,7 +280,7 @@ input[type=text] {
     border-color: #fd9e9e;
 }
 
-.hh-box4 button{
+.ww-box4 button{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bold;
     background-color: #fd9e9e;
@@ -264,7 +296,7 @@ input[type=text] {
     border-radius: 10px;
     border-color: #fd9e9e;
 }
-.hats2-container {
+.wigs2-container {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 10px;
@@ -272,14 +304,14 @@ input[type=text] {
     margin-left: 27%;
 }
 
-.hats2-container img{
+.wigs2-container img{
     object-fit: cover;
     width: 200px;
     height: 150px;
     border-radius: 10%;
 }
 
-.hh-box1 p{
+.ww-box1 p{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: rgb(113, 117, 104);
     font-size: 25px;
@@ -289,7 +321,7 @@ input[type=text] {
     margin-right: 26%;
 }
 
-.hh-box2 p{
+.ww-box2 p{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: rgb(113, 117, 104);
     font-size: 25px;
@@ -299,7 +331,7 @@ input[type=text] {
     margin-right: 26%;
 }
 
-.hh-box3 p{
+.ww-box3 p{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: rgb(113, 117, 104);
     font-size: 25px;
@@ -309,7 +341,7 @@ input[type=text] {
     margin-right: 26%;
 }
 
-.hh-box4 p{
+.ww-box4 p{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: rgb(113, 117, 104);
     font-size: 25px;
@@ -319,34 +351,38 @@ input[type=text] {
     margin-right: 26%;
 }
 
-.categories-list {
-    position: absolute;
-    display: flex;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-weight: bold;
-    color: rgb(113, 117, 104);
-    font-size: 20px;
-    left: 55px;
-    margin-left: 30px;
-    flex-direction: column;
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(251, 191, 191);
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+  
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
     text-decoration: none;
-    margin-top: -45%;
-}
-
-.categories-list a:hover {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bold;
-    color: #ffffff;
-}
-
-.categories-box {
+    font-size: 20px;
+    color: rgb(113, 117, 104);
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+  
+  .sidenav .closebtn {
     position: absolute;
-    display: flex;
-    top: 225px;
-    margin-left: 40px;
-    width: 200px;
-    height: 200px;
-    border-radius: 20px;
-    background-color: #fd9e9e;
-    z-index: -1;
-}
+    top: 0;
+    right: 25px;
+    font-size: 30px;
+    margin-left: 60px;
+  }

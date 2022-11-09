@@ -5,10 +5,29 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>H&Meow Wigs</title>
-    <link rel="stylesheet" href="hats.css">
+    <link rel="stylesheet" href="wigs.css">
 </head>
 
     <body>
+
+        <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a href="hats.html">Hats</a>
+            <a href="costumes.html">Costumes</a>
+            <a href="wigs.html">Wigs</a>
+        </div>
+        
+          <span style="font-size:40px;cursor:pointer;color: aliceblue; position: absolute; padding-left: 10px; margin-top: -0.5%;" onclick="openNav()">&#9776; </span>
+          
+        <script>
+          function openNav() {
+            document.getElementById("mySidenav").style.width = "250px";
+          }
+          
+          function closeNav() {
+            document.getElementById("mySidenav").style.width = "0";
+          }
+        </script>
 
         <div class="upper-tab-bar"></div>
         <input type="text" placeholder="Search..">
@@ -18,62 +37,71 @@
         </a>
     
         <div class="headers-container">
-            <h2 class="hats-child">wigs</h2>
+            <h2 class="wigs-child">wigs</h2>
         </div>
-    
-        <div class="hats-container">
-            <div class="h-box1">
+
+        <div class="wigs-filters">
+            <form>
+            <h1>Sort by:</h1>
+            <input type="checkbox" id="vehicle1" name="vehicle1">
+            <label for="hat1">Sanrio</label><br><br>
+            <input type="checkbox">
+            <label for="hat2">Food/Dessert Themed</label><br><br>
+            <input type="checkbox">
+            <label for="hat3">Animals</label><br><br>
+            <input type="checkbox" id="vehicle1" name="vehicle1">
+            <label for="hat1">Small</label><br><br>
+            <input type="checkbox">
+            <label for="hat2">Medium</label><br><br>
+            <input type="checkbox">
+            <label for="hat3">Large</label><br><br>
+            <input type="submit" id="submit">
+            </form>
+        </div>
+
+        <div class="wigs-container">
+            <div class="w-box1">
                 <img src="taiyakicat.jpeg" alt="taiyaki cat">
                 <p class="taiyaki-desc"> Taiyaki Cat Hat</p>
                 <button class="button1">Add to Cart</button>
             </div>
-            <div class="h-box2"><img src="hellokittycat.jpeg" alt="hello kitty">
+            <div class="w-box2"><img src="hellokittycat.jpeg" alt="hello kitty">
                 <p class="hk-desc">Hello Kitty Hood</p>
                 <button class="buy-button">Add to Cart</button>
             </div>
-            <div class="h-box3"><img src="bunnykitty.jpeg" alt="bunny kitty">
+            <div class="w-box3"><img src="bunnykitty.jpeg" alt="bunny kitty">
                 <p class="bunny-desc">Bunny Ears Hood</p>
                 <button class="buy-button">Add to Cart</button>
             </div>
-            <div class="h-box4"><img src="puddingkitty.jpeg" alt="pudding kitty">
+            <div class="w-box4"><img src="puddingkitty.jpeg" alt="pudding kitty">
                 <p class="purin-desc">Caramel Pudding Hat</p>
                 <button class="buy-button">Add to Cart</button>
             </div>
         </div>
     
-        <div class="hats2-container">
-            <div class="hh-box1">
+        <div class="wigs2-container">
+            <div class="ww-box1">
                 <img id="bear-cat" src="bear-cat.jpeg" alt="bear cat">
                 <p class="bear-desc"> Fluffy Bear Hood</p>
                 <button>Add to Cart</button>
             </div>
-            <div class="hh-box2">
+            <div class="ww-box2">
                 <img id="strawberry-kitty" src="strawberry-kitty.jpg" alt="strawberry kitty">
                 <p class="strawberry-desc"> Berry Disappointed Hat</p>
                 <button>Add to Cart</button>
             </div>
-            <div class="hh-box3">
+            <div class="ww-box3">
                 <img id="pikachu-kitty" src="pikachucat.jpeg" alt="pikachu kitty">
                 <p class="Pikachu-desc"> Pikachu Hood</p>
                 <button>Add to Cart</button>
             </div>
-            <div class="hh-box4">
+            <div class="ww-box4">
                 <img id="bear-kitty" src="Bear cat.jpg" alt="bear kitty">
                 <p class="rilakkuma-desc"> Rilakkuma Hood</p>
                 <button>Add to Cart</button>
             </div>
         </div>
-    
-        <div class="categories-list">
-            <a class="hats" href="hats.html">hats</a>
-            <br>
-            <a class="costumes" href="costumes.html">costumes</a>
-            <br>
-            <a class="wigs" href="wigs.html">wigs</a>
-        </div>
-
-        <div class="categories-box"></div>
-
+   
     </body>
     
     </html>
