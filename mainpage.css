@@ -33,10 +33,10 @@ input[type=text] {
 .logo{
     position: absolute;
     display: flex;
-    margin-left: 43%;
+    margin-left: 42%;
     height: 300px;
     width: 250px;
-    margin-top: -6%;
+    margin-top: -8%;
 }
 
 

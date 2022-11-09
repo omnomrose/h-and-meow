@@ -24,10 +24,10 @@ a {
 .logo{
     position: absolute;
     display: flex;
-    margin-left: 43%;
-    height: 250px;
-    width: 200px;
-    margin-top: -6%;
+    margin-left: 42%;
+    height: 300px;
+    width: 250px;
+    margin-top: -8%;
 }
 
 
@@ -60,31 +60,63 @@ a {
     top: 400px;
 }
 
-.f-box1 p{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: rgb(113, 117, 104);
-    font-size: 25px;
-    display: flex;
-    justify-content: center;
-    margin-right: 26%;
-}
-
-.features-container {
+.hats-container {
     display: grid;
+    position: relative;
     grid-template-columns: repeat(4, 1fr);
     gap: 10px;
     margin-top: 11%;
     margin-left: 27%;
 }
 
-.features-container img {
+.h-box1 p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(113, 117, 104);
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-right: 26%;
+}
+
+.h-box2 p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(113, 117, 104);
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-right: 26%;
+}
+
+.h-box3 p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(113, 117, 104);
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-right: 26%;
+}
+
+.h-box4 p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(113, 117, 104);
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-right: 26%;
+}
+
+.hats-container img {
     object-fit: cover;
     width: 200px;
     height: 150px;
     border-radius: 10%;
 }
 
-.features-container img:hover {
+.hats-container img:hover {
     transition: 400ms ease-in-out;
     transform: scale(1.15);
 }
@@ -97,7 +129,7 @@ a {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 10px;
-    margin-top: 10%;
+    margin-top: 5%;
     margin-left: 27%;
 }
 
