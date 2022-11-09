@@ -8,6 +8,15 @@ a {
     color: rgb(113, 117, 104);
 }
 
+input[type=text] {
+    float: right;
+    padding: 6px;
+    margin-top: 8px;
+    margin-right: 25px;
+    border: none;
+    font-size: 17px;
+  }
+  
 .upper-tab-bar {
     position: absolute;
     display: flex;
@@ -21,6 +30,7 @@ a {
     text-align: center;
 }
 
+  
 .logo{
     position: absolute;
     display: flex;
@@ -54,11 +64,6 @@ a {
     font-size: 2vw;
 }
 
-.headers-container .trending{
-    display: flex;
-    padding-left: 30px;
-    top: 400px;
-}
 
 .hats-container {
     display: grid;
@@ -79,6 +84,23 @@ a {
     margin-right: 26%;
 }
 
+.h-box1 button{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    background-color: #fd9e9e;
+    color:#ffffff;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    text-align: center;
+    right: -15%;
+    top: 10%;
+    padding: 10px;
+    border-radius: 10px;
+    border-color: #fd9e9e;
+}
+
 .h-box2 p{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: rgb(113, 117, 104);
@@ -88,7 +110,22 @@ a {
     text-align: center;
     margin-right: 26%;
 }
-
+.h-box2 button{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    background-color: #fd9e9e;
+    color:#ffffff;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    text-align: center;
+    right: -15%;
+    top: 0%;
+    padding: 10px;
+    border-radius: 10px;
+    border-color: #fd9e9e;
+}
 .h-box3 p{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: rgb(113, 117, 104);
@@ -99,6 +136,23 @@ a {
     margin-right: 26%;
 }
 
+.h-box3 button{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    background-color: #fd9e9e;
+    color:#ffffff;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    text-align: center;
+    right: -15%;
+    top: 0%;
+    padding: 10px;
+    border-radius: 10px;
+    border-color: #fd9e9e;
+} 
+
 .h-box4 p{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: rgb(113, 117, 104);
@@ -108,6 +162,23 @@ a {
     text-align: center;
     margin-right: 26%;
 }
+
+.h-box4 button{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    background-color: #fd9e9e;
+    color:#ffffff;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    text-align: center;
+    right: -15%;
+    top: 0%;
+    padding: 10px;
+    border-radius: 10px;
+    border-color: #fd9e9e;
+} 
 
 .hats-container img {
     object-fit: cover;
@@ -120,12 +191,79 @@ a {
     transition: 400ms ease-in-out;
     transform: scale(1.15);
 }
-.trending-container img:hover {
+.hats2-container img:hover {
     transition: 400ms ease-in-out;
     transform: scale(1.15);
 }
 
-.trending-container {
+.hh-box1 button{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    background-color: #fd9e9e;
+    color:#ffffff;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    text-align: center;
+    right: -15%;
+    top: 10%;
+    padding: 10px;
+    border-radius: 10px;
+    border-color: #fd9e9e;
+}
+
+.hh-box2 button{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    background-color: #fd9e9e;
+    color:#ffffff;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    text-align: center;
+    right: -15%;
+    top: 1%;
+    padding: 10px;
+    border-radius: 10px;
+    border-color: #fd9e9e;
+}
+
+.hh-box3 button{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    background-color: #fd9e9e;
+    color:#ffffff;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    text-align: center;
+    right: -15%;
+    top: 19%;
+    padding: 10px;
+    border-radius: 10px;
+    border-color: #fd9e9e;
+}
+
+.hh-box4 button{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    background-color: #fd9e9e;
+    color:#ffffff;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    text-align: center;
+    right: -15%;
+    top: 10%;
+    padding: 10px;
+    border-radius: 10px;
+    border-color: #fd9e9e;
+}
+.hats2-container {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 10px;
@@ -133,11 +271,51 @@ a {
     margin-left: 27%;
 }
 
-.trending-container img{
+.hats2-container img{
     object-fit: cover;
     width: 200px;
     height: 150px;
     border-radius: 10%;
+}
+
+.hh-box1 p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(113, 117, 104);
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-right: 26%;
+}
+
+.hh-box2 p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(113, 117, 104);
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-right: 26%;
+}
+
+.hh-box3 p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(113, 117, 104);
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-right: 26%;
+}
+
+.hh-box4 p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(113, 117, 104);
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-right: 26%;
 }
 
 .categories-list {
