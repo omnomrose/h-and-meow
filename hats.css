@@ -214,6 +214,7 @@ input[type=text] {
 }
 
 .hh-box2 button{
+
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bold;
     background-color: #fd9e9e;
@@ -329,7 +330,7 @@ input[type=text] {
     margin-left: 30px;
     flex-direction: column;
     text-decoration: none;
-    margin-top: -29%;
+    margin-top: -45%;
 }
 
 .categories-list a:hover {
@@ -344,7 +345,7 @@ input[type=text] {
     top: 225px;
     margin-left: 40px;
     width: 200px;
-    height: 500px;
+    height: 200px;
     border-radius: 20px;
     background-color: #fd9e9e;
     z-index: -1;
